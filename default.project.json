@@ -1,43 +1,43 @@
 {
-    "name": "Zombie Ords",
-    "servePlaceIds": [
-        12446805324
-    ],
-    "tree": {
-      "$className": "DataModel",
-      "ReplicatedFirst": {
-        "$className": "ReplicatedFirst",
+  "name": "Zombie Ords",
+  "servePlaceIds": [
+    12446805324
+  ],
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ReplicatedStorage"
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ServerScriptService"
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ServerStorage"
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterCharacterScripts": {
+        "$className": "StarterCharacterScripts",
         "$ignoreUnknownInstances": true,
-        "$path": "src/ReplicatedFirst"
+        "$path": "src/StarterPlayer/StarterCharacterScripts"
       },
-      "ReplicatedStorage": {
-        "$className": "ReplicatedStorage",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
         "$ignoreUnknownInstances": true,
-        "$path": "src/ReplicatedStorage"
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
       },
-      "ServerScriptService": {
-        "$className": "ServerScriptService",
-        "$ignoreUnknownInstances": true,
-        "$path": "src/ServerScriptService"
-      },
-      "ServerStorage": {
-        "$className": "ServerStorage",
-        "$ignoreUnknownInstances": true,
-        "$path": "src/ServerStorage"
-      },
-      "StarterPlayer": {
-        "$className": "StarterPlayer",
-        "StarterCharacterScripts": {
-          "$className": "StarterCharacterScripts",
-          "$ignoreUnknownInstances": true,
-          "$path": "src/StarterPlayer/StarterCharacterScripts"
-        },
-        "StarterPlayerScripts": {
-          "$className": "StarterPlayerScripts",
-          "$ignoreUnknownInstances": true,
-          "$path": "src/StarterPlayer/StarterPlayerScripts"
-        },
-        "$ignoreUnknownInstances": true
-      }
+      "$ignoreUnknownInstances": true
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/Workspace"
     }
   }
+}
